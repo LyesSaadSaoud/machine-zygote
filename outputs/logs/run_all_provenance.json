@@ -1,0 +1,95 @@
+{
+  "experiment": "run_all",
+  "timestamp_utc": "2026-08-23T11:38:00+00:00",
+  "python_version": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "python_executable": "/usr/bin/python3",
+  "packages": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "pandas": "3.0.2"
+  },
+  "git_commit": "3643b69d2b01d02cf25e3cd6f7a0659f4e71efd7",
+  "git_dirty": false,
+  "master_seed": 20260823,
+  "config_digest": "8270e321ac1fc1c7",
+  "config": {
+    "germline": {
+      "n_genes": 8,
+      "n_modules": 8,
+      "founder_amplitude": 0.7,
+      "mutation_sigma": 0.05,
+      "recombination_p": 0.5
+    },
+    "development": {
+      "dt": 0.05,
+      "t_max": 40.0,
+      "noise_scale": 1.0,
+      "diffusion_scale": 1.0,
+      "duration_scale": 1.0,
+      "trace_stride": 4
+    },
+    "embodiment": {
+      "dt": 0.05,
+      "t_total": 200.0,
+      "t_transient": 30.0,
+      "t_perturb": 100.0,
+      "perturb_magnitude": 0.5,
+      "recovery_periods": 3.0,
+      "recovery_window_min": 6.0,
+      "recovery_window_max": 40.0,
+      "recovery_threshold": 0.1,
+      "recovery_hold": 8.0,
+      "recovery_censor": 90.0,
+      "tau_u": 1.0,
+      "motor_slope": 1.5,
+      "v_max": 0.5,
+      "wheel_base": 0.3,
+      "sensor_gain": 1.0,
+      "light_x": 5.0,
+      "light_y": 5.0,
+      "light_sigma": 8.0,
+      "trace_stride": 4,
+      "u0_amplitude": 0.05
+    },
+    "run": {
+      "n_seeds_diallel": 40,
+      "n_backgrounds_swap": 60,
+      "n_seeds_baseline": 80,
+      "n_lineages": 6,
+      "n_family_per_gen": 8,
+      "n_seeds_robustness": 30,
+      "n_bootstrap": 5000,
+      "n_permutation": 5000,
+      "chunk_size": 256,
+      "smoke_test": false
+    },
+    "master_seed": 20260823
+  },
+  "hardware": {
+    "platform": "Linux-6.18.44-fc-v21-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "cpu_count_logical": 1,
+    "mem_total": "4093836 kB",
+    "cpu_model": "Intel(R) Xeon(R) Processor @ 2.80GHz"
+  },
+  "smoke_test": false,
+  "extra": {
+    "timings_seconds": {
+      "exp01_parental_crosses": 20.7,
+      "exp02_causal_swap": 8.79,
+      "exp03_baselines": 44.08,
+      "exp04_multigeneration": 55.38,
+      "exp05_robustness": 63.72
+    },
+    "total_seconds": 193.65,
+    "experiments": [
+      "exp01_parental_crosses",
+      "exp02_causal_swap",
+      "exp03_baselines",
+      "exp04_multigeneration",
+      "exp05_robustness"
+    ]
+  }
+}

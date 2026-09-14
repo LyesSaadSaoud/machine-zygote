@@ -1,0 +1,9 @@
+# Machine Zygote — Paper 1
+# Pinned to the versions the shipped results were produced with; the code has
+# no exotic dependencies and works on any reasonably recent release.
+numpy>=1.24,<3
+scipy>=1.10
+matplotlib>=3.7
+
+# Optional. The test suite runs without it via `python tests/run_tests.py`.
+# pytest>=7.0

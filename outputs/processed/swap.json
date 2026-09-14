@@ -1,0 +1,217 @@
+{
+  "n_backgrounds": 60,
+  "base_cross": "AxB",
+  "alt_dam": "C",
+  "alt_sire": "D",
+  "per_trait": [
+    {
+      "trait": "speed_mean",
+      "null_remut_mean_shift": 0.307633653169204,
+      "null_redev_mean_shift": 0.32608763600936025,
+      "swap_sire": {
+        "mean_shift": 0.8786845693276314,
+        "excess_over_null": 0.5710509161584274,
+        "ci": [
+          0.3710667659090917,
+          0.7795063373842581
+        ],
+        "hedges_g": 0.9935609084115126,
+        "p_perm": 0.0001999600079984003,
+        "p_holm": 0.0011997600479904018,
+        "significant": true
+      },
+      "swap_dam": {
+        "mean_shift": 0.7964544071739458,
+        "excess_over_null": 0.4888207540047418,
+        "ci": [
+          0.30047516196176116,
+          0.6873738009190902
+        ],
+        "hedges_g": 0.9013284244877466,
+        "p_perm": 0.0001999600079984003,
+        "p_holm": 0.0011997600479904018,
+        "significant": true
+      }
+    },
+    {
+      "trait": "gait_freq",
+      "null_remut_mean_shift": 0.3419071083082896,
+      "null_redev_mean_shift": 0.2583951137256932,
+      "swap_sire": {
+        "mean_shift": 1.2549207434804344,
+        "excess_over_null": 0.9130136351721447,
+        "ci": [
+          0.6361543197788577,
+          1.1985760987752885
+        ],
+        "hedges_g": 1.1625883410450226,
+        "p_perm": 0.0001999600079984003,
+        "p_holm": 0.0011997600479904018,
+        "significant": true
+      },
+      "swap_dam": {
+        "mean_shift": 2.564139826458492,
+        "excess_over_null": 2.2222327181502024,
+        "ci": [
+          1.8110826799672874,
+          2.6134692323303996
+        ],
+        "hedges_g": 1.9715504088739075,
+        "p_perm": 0.0001999600079984003,
+        "p_holm": 0.0011997600479904018,
+        "significant": true
+      }
+    },
+    {
+      "trait": "turn_bias",
+      "null_remut_mean_shift": 0.4704840876841736,
+      "null_redev_mean_shift": 0.42932454710909823,
+      "swap_sire": {
+        "mean_shift": 0.7330249243275478,
+        "excess_over_null": 0.26254083664337424,
+        "ci": [
+          0.014761234157150867,
+          0.501715906038497
+        ],
+        "hedges_g": 0.3735312750470023,
+        "p_perm": 0.015396920615876825,
+        "p_holm": 0.03079384123175365,
+        "significant": true
+      },
+      "swap_dam": {
+        "mean_shift": 1.4935772659527466,
+        "excess_over_null": 1.023093178268573,
+        "ci": [
+          0.6532080493874719,
+          1.3936299529870377
+        ],
+        "hedges_g": 1.0062805020887529,
+        "p_perm": 0.0001999600079984003,
+        "p_holm": 0.0011997600479904018,
+        "significant": true
+      }
+    },
+    {
+      "trait": "recovery_time",
+      "null_remut_mean_shift": 0.9582425295682414,
+      "null_redev_mean_shift": 1.0022091984128638,
+      "swap_sire": {
+        "mean_shift": 0.9924504867122675,
+        "excess_over_null": 0.034207957144026135,
+        "ci": [
+          -0.2810089240236259,
+          0.3380081949458188
+        ],
+        "hedges_g": 0.03913082106492956,
+        "p_perm": 0.8080383923215357,
+        "p_holm": 0.8080383923215357,
+        "significant": false
+      },
+      "swap_dam": {
+        "mean_shift": 1.2310667276494314,
+        "excess_over_null": 0.27282419808118996,
+        "ci": [
+          -0.07158749559074586,
+          0.5918343849260089
+        ],
+        "hedges_g": 0.29602375596549146,
+        "p_perm": 0.05638872225554889,
+        "p_holm": 0.05638872225554889,
+        "significant": false
+      }
+    },
+    {
+      "trait": "coherence",
+      "null_remut_mean_shift": 0.35452497386238874,
+      "null_redev_mean_shift": 0.3040781462629759,
+      "swap_sire": {
+        "mean_shift": 0.8937184333908262,
+        "excess_over_null": 0.5391934595284376,
+        "ci": [
+          0.3311333368103066,
+          0.7573453617854123
+        ],
+        "hedges_g": 0.8989153524410292,
+        "p_perm": 0.0001999600079984003,
+        "p_holm": 0.0011997600479904018,
+        "significant": true
+      },
+      "swap_dam": {
+        "mean_shift": 0.7984575752236883,
+        "excess_over_null": 0.4439326013612996,
+        "ci": [
+          0.2644536053230478,
+          0.6395859201847305
+        ],
+        "hedges_g": 0.8293543742576409,
+        "p_perm": 0.0001999600079984003,
+        "p_holm": 0.0011997600479904018,
+        "significant": true
+      }
+    },
+    {
+      "trait": "explore_radius",
+      "null_remut_mean_shift": 0.33187803834345453,
+      "null_redev_mean_shift": 0.2801677990443457,
+      "swap_sire": {
+        "mean_shift": 0.9861752342967486,
+        "excess_over_null": 0.654297195953294,
+        "ci": [
+          0.42399149857580126,
+          0.8919937017183382
+        ],
+        "hedges_g": 0.967941496875633,
+        "p_perm": 0.0001999600079984003,
+        "p_holm": 0.0011997600479904018,
+        "significant": true
+      },
+      "swap_dam": {
+        "mean_shift": 1.044794786670357,
+        "excess_over_null": 0.7129167483269025,
+        "ci": [
+          0.4695702655417636,
+          0.9677292437658185
+        ],
+        "hedges_g": 1.0013608306055592,
+        "p_perm": 0.0001999600079984003,
+        "p_holm": 0.0011997600479904018,
+        "significant": true
+      }
+    }
+  ],
+  "multivariate": {
+    "swap_sire": {
+      "mean_distance": 2.8534100684285564,
+      "sd": 1.2585637025051453,
+      "p_paired_perm": 0.0001999600079984003,
+      "excess_over_null": 1.2944602404516035
+    },
+    "swap_dam": {
+      "mean_distance": 4.202063939421147,
+      "sd": 1.2157049160249436,
+      "p_paired_perm": 0.0001999600079984003,
+      "excess_over_null": 2.643114111444194
+    },
+    "null_remut": {
+      "mean_distance": 1.5589498279769534,
+      "sd": 0.9908572131549291
+    },
+    "null_redev": {
+      "mean_distance": 1.518767191566828,
+      "sd": 0.8805800471584035
+    }
+  },
+  "H5_supported": true,
+  "H5_traits": [
+    "speed_mean::swap_sire",
+    "gait_freq::swap_sire",
+    "turn_bias::swap_sire",
+    "coherence::swap_sire",
+    "explore_radius::swap_sire",
+    "speed_mean::swap_dam",
+    "gait_freq::swap_dam",
+    "turn_bias::swap_dam",
+    "coherence::swap_dam",
+    "explore_radius::swap_dam"
+  ]
+}
