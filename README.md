@@ -1,6 +1,6 @@
 # Machine Zygote
 
-**A germline–soma architecture for developmental machine heredity — reproducible codebase for Paper 1.**
+**A germline–soma architecture for developmental machine heredity — reproducible codebase**
 
 This repository implements and tests a machine-heredity architecture in which
 two parent systems carry separate **germline** states, their contributions are
